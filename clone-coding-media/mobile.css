@@ -1,0 +1,448 @@
+* {
+  outline: 0;
+}
+
+html, body {
+    font-family: 'Pretendard', 'Apple SD Gothic Neo', '맑은 고딕', '맑은고딕', 'Malgun Gothic', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: rgba(0,0,0,0.87);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+  display: block;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+div.main-wrap {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    background: #fff;
+}
+
+header {
+    position: relative;
+    background: #f7323f;
+    z-index: 210;
+}
+
+section {
+    height: 44px;
+    background: #fff;
+    width: 100%;
+}
+
+#main-headder-title {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    width: 95px;
+    height: 20px;
+    margin: 0 0 0 -47.5px;
+    background: url('//image.goodchoice.kr/images/web_v3/h1_logo_mo.png') 0 0 no-repeat;
+    background-size: 95px auto;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+a.main-headder-title {
+    display: block;
+    text-indent: -9999px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button {
+    padding: 0;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 0;
+    font-family: 'Pretendard', 'Apple SD Gothic Neo', '맑은 고딕', '맑은고딕', 'Malgun Gothic', sans-serif;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0em;
+}
+
+
+button.menu-navi {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: url('//image.goodchoice.kr/images/web_v3/ico_menu.png') 50% 50% no-repeat;
+    background-size: 24px auto;
+    text-indent: -9999px;
+}
+button.menu-surch {
+    position: absolute;
+    top: 2px;
+    right: 8px !important;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: url('//image.goodchoice.kr/images/web_v3/ico_srch.png') 50% 50% no-repeat;
+    background-size: 24px auto;
+    text-indent: -9999px;
+}
+
+#content-wrap {
+  overflow: hidden;
+}
+
+div.main-spot {
+    height: 50vw;
+    background: #fff url(//image.goodchoice.kr/images/web_v3/mainspot_2306.png) 50% 100% no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+}
+
+.main-spot a {
+    height: 50vw;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.main-link {
+  overflow: hidden;
+  padding: 16px 0;
+  background: rgb(250,250,250);
+  margin-right:10%
+}
+
+ul,li,ol {
+  list-style: none;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.main-link li {
+    float: left;
+    width: 33.3333%;
+}
+
+.main-link li a {
+    display: block;
+    overflow: hidden;
+    height: 79px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.87);
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-link .ico_01 {
+  background: url(//image.goodchoice.kr/images/web_v3/ico_category_01.png) no-repeat;
+  background-size: 48px auto;
+}
+.main-link li a span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+p {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.main-link li a p {
+  height: 20px;
+  padding-top: 25px;
+  width: 129px;
+}
+
+.main-link .ico_02 {
+  background: url(//image.goodchoice.kr/images/web_v3/ico_category_02.png) no-repeat;
+  background-size: 48px auto;
+}
+.main-link .ico_03 {
+  background: url(//image.goodchoice.kr/images/web_v3/ico_category_03.png) no-repeat;
+  background-size: 48px auto;
+}
+
+.main-link .ico_04 {
+  background: url(//image.goodchoice.kr/images/web_v3/ico_category_04.png) no-repeat;
+  background-size: 48px auto;
+}
+
+.main-link .ico_05 {
+  background: url(//image.goodchoice.kr/images/web_v3/ico_category_05.png) no-repeat;
+  background-size: 48px auto;
+}
+
+.main-link .ico_06 {
+  background: url(//image.goodchoice.kr/images/web_v3/ico_category_09.png) no-repeat;
+  background-size: 48px auto;
+}
+
+.recommand {
+  padding: 23px 16px 0 16px;
+}
+
+div h2 {
+  font-size: 14px;
+  margin-bottom: 13px;
+  color: rgba(0,0,0,0.87);
+  font-weight: bold;
+}
+.recommand-ul {
+  padding:0 0 0  ;
+}
+
+.recommand li {
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-left: 108px;
+}
+
+.recommand li a {
+  display: block;
+  height: 112px;
+  font-size: 13px;
+  line-height: 22px;
+  color: rgba(0,0,0,0.56);
+}
+
+.recommand li img {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 96px;
+  height: 96px;
+  border: 0;
+} 
+
+.recommand li strong {
+  display: block;
+  padding: 22px 0 8px 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: normal;
+  color: rgb(0,121,107);
+}
+
+.event-main h2 {
+  padding: 23px 0 0 16px;
+  font-size: 14px;
+  margin-bottom: 13px;
+  color: rgba(0,0,0,0.87);
+  font-weight: bold;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+div.ad-ask {
+  margin: 16px 0 40px 0;
+}
+
+
+.ad-ask ul li:first-child {
+  position: relative;
+  margin-bottom: 8px;
+  overflow: hidden;
+  border-top: 1px solid rgba(0,0,0,0.04);
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+
+}
+.ad-ask ul li {
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(0,0,0,0.04);
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.ad-ask ul li a {
+  display: block;
+  text-align: center;
+}
+
+.ad-ask ul li a img {
+  width: 100%;
+}
+
+footer {
+  overflow: hidden;
+  clear: both;
+  position: relative;
+  padding: 23px 16px 16px 16px !important;
+  background: rgb(245,245,245);
+  font-size: 10px;
+  line-height: 16px;
+  color: rgba(0,0,0,0.38);
+}
+
+footer .link li {
+  float: left;
+  margin-bottom: 13px;
+  line-height: normal;
+}
+
+footer .link li a {
+  display: inline-block;
+}
+
+footer a {
+  color: rgba(0,0,0,0.38);
+  text-decoration: none;
+}
+
+footer .link li span {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+}
+
+footer .link li button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 10px;
+  line-height: 1;
+  color: rgba(0,0,0,0.38);
+}
+
+footer p {
+  clear: both;
+  padding: 27px 0 27px 0;
+}
+
+footer p b, footer p span, footer address {
+  display: inline-block;
+}
+
+address {
+  font-style: normal;
+  font-weight: normal;
+}
+
+footer address span {
+  display: block;
+  padding-bottom: 6px;
+}
+
+footer address.order {
+  display: block;
+  padding: 6px 0;
+}
+
+.footer-icon {
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 20px 0 5px 0;
+  border-top: 1px solid rgba(0,0,0,0.04);
+}
+
+.footer-icon a {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  font-size: 22px;
+  color: rgba(0,0,0,0.48);
+}
+
+
+  /* font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+
+.footer-icon span {
+  display: inline-block;
+  overflow: hidden;
+  width: 0;
+  text-indent: -9999px;
+}
+
+.gototop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: url('//image.goodchoice.kr/images/web_v3/ico_top.png') 0 0 no-repeat;
+  background-size: 40px auto;
+  text-indent: -9999px;
+}
+
+section.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+ul.swiper-wrapper {
+  transform: translate3d(-780px, 0px, 0px);
+  transition-duration: 450ms;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+li.swiper-slide-dup {
+  width: 390px;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+}
+
+img.swiper-slider {
+  width: 100%;
+}
+

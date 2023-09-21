@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position 실습</title>
+  <style>
+    div.img {
+      background-image: url("http://koreaitacademy.com/renewal2021/img/tch/teacher007.png");
+      /* background-size: 좌우 상하 */
+      background-size: 100%; 
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 315px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    div.cap {
+      position: absolute;
+      background-image: url("cap.png");
+      /* background-size: 좌우 상하 */
+      background-size: 100%; 
+      background-repeat: no-repeat;
+      width: 118px;
+      height: 118px;
+      margin: 0 auto;
+      left: 26px;
+      top: -19px;
+    }
+
+    div.deer {
+      position: absolute;
+      background-image: url("deer.png");
+      /* background-size: 좌우 상하 */
+      background-size: 100%; 
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      bottom: 75px;
+      right: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="img">
+    <div class="cap"></div>
+    <div class="deer"></div>
+  </div>
+</body>
+</html>
